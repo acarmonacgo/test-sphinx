@@ -66,9 +66,7 @@ instance/
 .scrapy
 
 # Sphinx documentation
-build/
-!build/html/  # No ignorar la documentación HTML generada para GitHub Pages
-source/_build/  # Ignorar el build interno de Sphinx dentro de source/
+source/_build/
 
 # PyBuilder
 .pybuilder/
