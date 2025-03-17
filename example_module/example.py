@@ -1,19 +1,19 @@
 """
-Este módulo contiene una función de ejemplo para Sphinx.
+This module contains an example function for Sphinx.
 """
 
 def hello_world(name: str) -> str:
     """
-    Devuelve un saludo personalizado.
+    Returns a personalized greeting.
 
-    :param name: Nombre de la persona a saludar.
+    :param name: Name of the person to greet.
     :type name: str
-    :return: Mensaje de saludo.
+    :return: Greeting message.
     :rtype: str
 
-    **Ejemplo de uso:**
+    **Example usage:**
 
     >>> hello_world("Augusto")
-    'Hola, Augusto!'
+    'Hello, Augusto!'
     """
-    return f"Hola, {name}!"
+    return f"Hello, {name}!"
